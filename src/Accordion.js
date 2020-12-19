@@ -15,6 +15,8 @@ const Accordion = ({ items }) => {
     //     setActiveIndex(null);
     // }
 
+    // en.wikipedia.org/w/applicationCache.php?action=query&list=search&format=json&srsearch=SEARCHTERM
+
     return (
       <React.Fragment key={item.title}>
         <div className={`title ${active}`} onClick={() => onTitleClick(index)}>
